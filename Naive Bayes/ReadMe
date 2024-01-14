@@ -1,1 +1,8 @@
+Naive Bayes is a family of probabilistic classification algorithms based on Bayes' theorem with the assumption of independence between features. 
+It is a simple and fast algorithm that is particularly suitable for high-dimensional datasets. Despite its simplicity and the "naive" assumption of feature independence, 
+Naive Bayes models have been surprisingly effective in various real-world applications.
 
+There are different types of Naive Bayes models, and the choice of the model depends on the nature of the data:
+  Gaussian Naive Bayes: Assumes that the features follow a normal distribution.
+  Multinomial Naive Bayes: Suitable for discrete data, often used in text classification with word counts.
+  Bernoulli Naive Bayes: Appropriate for binary features, commonly used in text classification with binary features.
