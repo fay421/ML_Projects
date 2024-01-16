@@ -1,1 +1,14 @@
+In the context of Support Vector Machines (SVM) in machine learning, SVC and SVR refer to different variants of SVMs designed for classification and regression tasks, respectively. 
+SVC (Support Vector Classification):
+
+SVC is the class in sci-kit-learn used for Support Vector Classification. 
+It is designed for solving classification problems where the goal is to predict the categorical class labels of instances.
+Here, kernel specifies the type of kernel function to be used (e.g., 'linear', 'rbf', 'poly'), and C is the regularization parameter.
+
+SVR (Support Vector Regression):
+
+SVR is the class in scikit-learn used for Support Vector Regression. 
+It is an extension of SVM designed for regression tasks where the goal is to predict continuous numeric values instead of discrete class labels.
+Similar to SVC, kernel and C are important parameters for SVR. 
+The choice of kernel and the regularization parameter C will influence the regression model's performance.
 
